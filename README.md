@@ -13,9 +13,9 @@
 
 [**Docker**](https://www.docker.com/) image with [**Meinheld**](http://meinheld.org/) managed by [**Gunicorn**](https://gunicorn.org/) for high-performance web applications in [**Flask**](http://flask.pocoo.org/) using **[Python](https://www.python.org/) 3.7** and **3.6** with performance auto-tuning. Optionally with Alpine Linux.
 
-**GitHub repo**: <https://github.com/tiangolo/meinheld-gunicorn-docker>
+**GitHub repo**: <https://github.com/tiangolo/meinheld-gunicorn-flask-docker>
 
-**Docker Hub image**: <https://hub.docker.com/r/tiangolo/meinheld-gunicorn/>
+**Docker Hub image**: <https://hub.docker.com/r/tiangolo/meinheld-gunicorn-flask/>
 
 
 ## Description
@@ -55,6 +55,11 @@ But only after knowing that someone actually needs it.
 You can use **Gunicorn** to manage Meinheld and run multiple processes of it.
 
 
+### Flask
+
+Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
+
+
 ## Alternatives
 
 This image was created to be an alternative to [**tiangolo/uwsgi-nginx-flask**](https://github.com/tiangolo/uwsgi-nginx-flask-docker), providing about 400% the performance of that image.
@@ -91,7 +96,7 @@ These are the environment variables that you can set in the container to configu
 
 #### `MODULE_NAME`
 
-The Python "module" (file) to be imported by Gunicorn, this module would contain the actual application in a variable.
+The Python "module" (file) to be imported by Gunicorn, this module would contain the actual Flask application in a variable.
 
 By default:
 
@@ -107,7 +112,7 @@ docker run -d -p 80:80 -e MODULE_NAME="custom_app.custom_main" myimage
 
 #### `VARIABLE_NAME`
 
-The variable inside of the Python module that contains the WSGI application.
+The variable inside of the Python module that contains the Flask application.
 
 By default:
 
@@ -124,7 +129,7 @@ def hello():
     return "Hello World from Flask"
 ```
 
-In this case `api` would be the variable with the "WSGI application". You could set it like:
+In this case `api` would be the variable with the "Flask application". You could set it like:
 
 ```bash
 docker run -d -p 80:80 -e VARIABLE_NAME="api" myimage
