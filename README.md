@@ -20,18 +20,20 @@
 
 ## Description
 
-Python Flask web applications running with **Meinheld** controlled by **Gunicorn** have some of the [best performances achievable by Flask](https://www.techempower.com/benchmarks/#section=test&runid=a979de55-980d-4721-a46f-77298b3f3923&hw=ph&test=fortune&l=zijzen-7).
+Python Flask web applications running with **Meinheld** controlled by **Gunicorn** have some of the [best performances achievable by Flask](https://www.techempower.com/benchmarks/#section=test&runid=a979de55-980d-4721-a46f-77298b3f3923&hw=ph&test=fortune&l=zijzen-7) (*).
 
 If you have an already existing application in Flask or are building a new one, this image will give you the best performance possible (or close to that).
 
 This image has an "auto-tuning" mechanism included, so that you can just add your code and get **good performance** automatically. And without making sacrifices (like logging).
 
 
-### Note on performance
+### * Note on performance and features
 
 If you are starting a new project, you might benefit from a newer and faster framework like [**FastAPI**](https://github.com/tiangolo/fastapi) (based on ASGI instead of WSGI like Flask and Django), and a Docker image like [**tiangolo/uvicorn-gunicorn-fastapi**](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker).
 
 It would give you about 200% the performance achievable with Flask, even when using this image.
+
+Also, if you want to use new technologies like WebSockets it would be easier with a newer framework based on ASGI, like **FastAPI**. As the standard ASGI was designed to be able to handle asynchronous code like the one needed for WebSockets.
 
 
 ## Python 2.7
