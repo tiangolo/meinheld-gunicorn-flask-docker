@@ -336,6 +336,10 @@ All the image tags, configurations, environment variables and application option
 
 ## Release Notes
 
+### Next Release
+
+* Update Travis CI configuration. PR [#10](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/10) by [@cclauss](https://github.com/cclauss).
+
 ### 0.1.0
 
 * Add support for `/app/prestart.sh`.
