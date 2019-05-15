@@ -5,6 +5,7 @@
 
 * [`python3.7`, `latest` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.7/Dockerfile)
 * [`python3.6` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.6/Dockerfile)
+* [`python2.7` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python2.7/Dockerfile)
 * [`python3.6-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.6-alpine3.8/Dockerfile)
 * [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.7-alpine3.8/Dockerfile)
 
@@ -337,6 +338,8 @@ All the image tags, configurations, environment variables and application option
 ## Release Notes
 
 ### Next Release
+
+* Add support for Python 2.7 (you should use Python 3.7 or Python 3.6). PR [#11](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/11).
 
 * Update Travis CI configuration. PR [#10](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/10) by [@cclauss](https://github.com/cclauss).
 
