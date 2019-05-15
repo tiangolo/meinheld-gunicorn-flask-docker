@@ -32,6 +32,10 @@ def verify_container(container, response_text):
     "image,response_text",
     [
         (
+            "tiangolo/meinheld-gunicorn-flask:python2.7",
+            "Hello World from Flask in a Docker container running Python 2.7 with Meinheld and Gunicorn (default)",
+        ),
+        (
             "tiangolo/meinheld-gunicorn-flask:python3.6",
             "Hello World from Flask in a Docker container running Python 3.6 with Meinheld and Gunicorn (default)",
         ),

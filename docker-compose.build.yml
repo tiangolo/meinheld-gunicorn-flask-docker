@@ -3,6 +3,9 @@ services:
   latest:
     build: ./python3.7
     image: tiangolo/meinheld-gunicorn-flask:latest
+  python2.7:
+    build: ./python2.7
+    image: tiangolo/meinheld-gunicorn-flask:python2.7
   python3.6:
     build: ./python3.6
     image: tiangolo/meinheld-gunicorn-flask:python3.6
