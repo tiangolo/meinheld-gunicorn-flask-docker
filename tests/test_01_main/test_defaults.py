@@ -1,3 +1,4 @@
+import os
 import time
 
 import pytest
@@ -28,46 +29,21 @@ def verify_container(container, response_text):
     assert response.text == response_text
 
 
-@pytest.mark.parametrize(
-    "image,response_text",
-    [
-        (
-            "tiangolo/meinheld-gunicorn-flask:python2.7",
-            "Hello World from Flask in a Docker container running Python 2.7 with Meinheld and Gunicorn (default)",
-        ),
-        (
-            "tiangolo/meinheld-gunicorn-flask:python3.6",
-            "Hello World from Flask in a Docker container running Python 3.6 with Meinheld and Gunicorn (default)",
-        ),
-        (
-            "tiangolo/meinheld-gunicorn-flask:python3.7",
-            "Hello World from Flask in a Docker container running Python 3.7 with Meinheld and Gunicorn (default)",
-        ),
-        (
-            "tiangolo/meinheld-gunicorn-flask:latest",
-            "Hello World from Flask in a Docker container running Python 3.7 with Meinheld and Gunicorn (default)",
-        ),
-        (
-            "tiangolo/meinheld-gunicorn-flask:python3.6-alpine3.8",
-            "Hello World from Flask in a Docker container running Python 3.6 with Meinheld and Gunicorn on Alpine (default)",
-        ),
-        (
-            "tiangolo/meinheld-gunicorn-flask:python3.7-alpine3.8",
-            "Hello World from Flask in a Docker container running Python 3.7 with Meinheld and Gunicorn on Alpine (default)",
-        ),
-    ],
-)
-def test_defaults(image, response_text):
+def test_defaults():
+    name = os.getenv("NAME")
+    image = f"tiangolo/meinheld-gunicorn-flask:{name}"
+    response_text = os.getenv("TEST_STR1")
+    sleep_time = int(os.getenv("SLEEP_TIME", 1))
     remove_previous_container(client)
     container = client.containers.run(
         image, name=CONTAINER_NAME, ports={"80": "8000"}, detach=True
     )
-    time.sleep(1)
+    time.sleep(sleep_time)
     verify_container(container, response_text)
     container.stop()
     # Test that everything works after restarting too
     container.start()
-    time.sleep(1)
+    time.sleep(sleep_time)
     verify_container(container, response_text)
     container.stop()
     container.remove()
