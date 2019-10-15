@@ -319,6 +319,8 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+### 0.3.0
+
 * Refactor tests to use env vars and add image tags for each build date, like `tiangolo/meinheld-gunicorn-flask:python3.7-2019-10-15`. PR [#17](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/17).
 
 ### 0.2.0
