@@ -29,7 +29,7 @@ def verify_container(container, response_text):
     assert response.text == response_text
 
 
-def test_defaults(image, response_text):
+def test_defaults():
     name = os.getenv("NAME")
     image = f"tiangolo/meinheld-gunicorn-flask:{name}"
     response_text = os.getenv("TEST_STR1")
