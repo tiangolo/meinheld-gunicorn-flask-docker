@@ -3,36 +3,12 @@ import subprocess
 import sys
 
 environments = [
-    {
-        "NAME": "latest",
-        "BUILD_PATH": "python3.7",
-        "TEST_STR1": "Hello World from Flask in a Docker container running Python 3.7 with Meinheld and Gunicorn (default)",
-    },
-    {
-        "NAME": "python3.7",
-        "BUILD_PATH": "python3.7",
-        "TEST_STR1": "Hello World from Flask in a Docker container running Python 3.7 with Meinheld and Gunicorn (default)",
-    },
-    {
-        "NAME": "python3.6",
-        "BUILD_PATH": "python3.6",
-        "TEST_STR1": "Hello World from Flask in a Docker container running Python 3.6 with Meinheld and Gunicorn (default)",
-    },
-    {
-        "NAME": "python2.7",
-        "BUILD_PATH": "python2.7",
-        "TEST_STR1": "Hello World from Flask in a Docker container running Python 2.7 with Meinheld and Gunicorn (default)",
-    },
-    {
-        "NAME": "python3.7-alpine3.8",
-        "BUILD_PATH": "python3.7-alpine3.8",
-        "TEST_STR1": "Hello World from Flask in a Docker container running Python 3.7 with Meinheld and Gunicorn on Alpine (default)",
-    },
-    {
-        "NAME": "python3.6-alpine3.8",
-        "BUILD_PATH": "python3.6-alpine3.8",
-        "TEST_STR1": "Hello World from Flask in a Docker container running Python 3.6 with Meinheld and Gunicorn on Alpine (default)",
-    },
+    {"NAME": "latest", "PYTHON_VERSION": "3.7"},
+    {"NAME": "python3.7", "PYTHON_VERSION": "3.7"},
+    {"NAME": "python3.6", "PYTHON_VERSION": "3.6"},
+    {"NAME": "python2.7", "PYTHON_VERSION": "2.7"},
+    {"NAME": "python3.7-alpine3.8", "PYTHON_VERSION": "3.7"},
+    {"NAME": "python3.6-alpine3.8", "PYTHON_VERSION": "3.6"},
 ]
 
 start_with = os.environ.get("START_WITH")

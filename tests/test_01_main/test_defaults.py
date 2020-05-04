@@ -1,17 +1,24 @@
 import os
 import time
 
-import pytest
-import requests
-
 import docker
+import requests
+from docker.models.containers import Container
 
-from ..utils import CONTAINER_NAME, get_config, get_logs, remove_previous_container
+from ..utils import (
+    CONTAINER_NAME,
+    get_config,
+    get_logs,
+    get_response_text1,
+    remove_previous_container,
+)
 
 client = docker.from_env()
 
 
-def verify_container(container, response_text):
+def verify_container(container: Container, response_text: str) -> None:
+    response = requests.get("http://127.0.0.1:8000")
+    assert response.text == response_text
     config_data = get_config(container)
     assert config_data["workers_per_core"] == 2
     assert config_data["host"] == "0.0.0.0"
@@ -25,14 +32,12 @@ def verify_container(container, response_text):
     assert (
         "Running inside /app/prestart.sh, you could add migrations to this file" in logs
     )
-    response = requests.get("http://127.0.0.1:8000")
-    assert response.text == response_text
 
 
-def test_defaults():
+def test_defaults() -> None:
     name = os.getenv("NAME")
     image = f"tiangolo/meinheld-gunicorn-flask:{name}"
-    response_text = os.getenv("TEST_STR1")
+    response_text = get_response_text1()
     sleep_time = int(os.getenv("SLEEP_TIME", 1))
     remove_previous_container(client)
     container = client.containers.run(
