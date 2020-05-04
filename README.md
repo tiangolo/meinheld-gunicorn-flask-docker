@@ -1,18 +1,18 @@
-[![Build Status](https://travis-ci.org/tiangolo/meinheld-gunicorn-flask-docker.svg?branch=master)](https://travis-ci.org/tiangolo/meinheld-gunicorn-flask-docker)
+[![Test](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions?query=workflow%3ADeploy)
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`python3.7`, `latest` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.7/Dockerfile)
-* [`python3.6` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.6/Dockerfile)
-* [`python2.7` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python2.7/Dockerfile)
-* [`python3.6-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.6-alpine3.8/Dockerfile)
-* [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/python3.7-alpine3.8/Dockerfile)
+* [`python3.7`, `latest` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.7.dockerfile)
+* [`python3.6` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.6.dockerfile)
+* [`python2.7` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python2.7.dockerfile)
+* [`python3.6-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.6-alpine3.8.dockerfile)
+* [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.7-alpine3.8.dockerfile)
 
 **Note**: Note: There are [tags for each build date](https://hub.docker.com/r/tiangolo/meinheld-gunicorn-flask/tags). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/meinheld-gunicorn-flask:python3.7-2019-10-15`.
 
 # meinheld-gunicorn-flask
 
-[**Docker**](https://www.docker.com/) image with [**Meinheld**](http://meinheld.org/) managed by [**Gunicorn**](https://gunicorn.org/) for high-performance web applications in [**Flask**](http://flask.pocoo.org/) using **[Python](https://www.python.org/) 3.7** and **3.6** with performance auto-tuning. Optionally with Alpine Linux.
+[**Docker**](https://www.docker.com/) image with [**Meinheld**](http://meinheld.org/) managed by [**Gunicorn**](https://gunicorn.org/) for high-performance web applications in [**Flask**](http://flask.pocoo.org/) using **[Python](https://www.python.org/) 3.6** and above and **Python 2.7**, with performance auto-tuning. Optionally with Alpine Linux.
 
 **GitHub repo**: [https://github.com/tiangolo/meinheld-gunicorn-flask-docker](https://github.com/tiangolo/meinheld-gunicorn-flask-docker)
 
@@ -33,14 +33,6 @@ If you are starting a new project, you might benefit from a newer and faster fra
 It would give you about 200% the performance achievable with Flask, even when using this image.
 
 Also, if you want to use new technologies like WebSockets it would be easier with a newer framework based on ASGI, like **FastAPI**. As the standard ASGI was designed to be able to handle asynchronous code like the one needed for WebSockets.
-
-## Python 2.7
-
-Do you need support for Python 2.7?
-
-Let me know in an issue and I'll add it.
-
-But only after knowing that someone actually needs it.
 
 ## Technical Details
 
@@ -318,6 +310,13 @@ All the image tags, configurations, environment variables and application option
 ## Release Notes
 
 ### Latest Changes
+
+* Refactor build setup:
+    * Use GitHub actions for CI.
+    * Simplify, centralize, and deduplicate code and configs.
+    * Update tests.
+    * Move from Pipenv to Poetry.
+    * PR [#26](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/26).
 
 ### 0.3.0
 
