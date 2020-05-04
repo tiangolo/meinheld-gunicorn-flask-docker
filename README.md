@@ -312,6 +312,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* Fix typo in README. PR [#18](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/18).
 * Add support for Python 3.8. PR [#27](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/27).
 * Refactor build setup:
     * Use GitHub actions for CI.
