@@ -53,7 +53,7 @@ Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intenti
 
 This image was created to be an alternative to [**tiangolo/uwsgi-nginx-flask**](https://github.com/tiangolo/uwsgi-nginx-flask-docker), providing about 400% the performance of that image.
 
-It is based on the more generic image [**tiangolo/meinheld-guinicorn**](https://github.com/tiangolo/meinheld-guinicorn-docker). That's the one you would use for other WSGI frameworks, like Django.
+It is based on the more generic image [**tiangolo/meinheld-gunicorn**](https://github.com/tiangolo/meinheld-gunicorn-docker). That's the one you would use for other WSGI frameworks, like Django.
 
 ## How to use
 
