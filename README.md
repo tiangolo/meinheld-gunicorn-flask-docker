@@ -313,6 +313,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 👷 Add GitHub Action latest-changes, update issue-manager, add funding. PR [#41](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/41) by [@tiangolo](https://github.com/tiangolo).
 * Add Python 3.8 with Alpine 3.11. PR [#28](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/28).
 * Fix typo in README. PR [#18](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/18) by [@tahmid-choyon](https://github.com/tahmid-choyon).
 * Add support for Python 3.8. PR [#27](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/27).
