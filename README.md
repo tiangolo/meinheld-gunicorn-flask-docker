@@ -267,6 +267,8 @@ You can set it like:
 docker run -d -p 80:8080 -e LOG_LEVEL="warning" myimage
 ```
 
+Logs are sent to the container's `stderr` and `stdout`, meaning you can view the logs with the `docker logs -f your_container_name_here` command.
+
 ### Custom Gunicorn configuration file
 
 The image includes a default Gunicorn Python config file at `/gunicorn_conf.py`.
