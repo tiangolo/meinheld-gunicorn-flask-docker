@@ -2,6 +2,7 @@ FROM tiangolo/meinheld-gunicorn:python3.7
 
 LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
 
-RUN pip install flask
+COPY requirements.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
 
 COPY ./app /app
