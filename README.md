@@ -2,7 +2,9 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`python3.8`, `latest` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.8.dockerfile)
+* [`python3.9`, `latest` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.9.dockerfile)
+* [`python3.9-alpine3.13` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.9-alpine3.13.dockerfile)
+* [`python3.8`, _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.8.dockerfile)
 * [`python3.8-alpine3.11` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.8-alpine3.11.dockerfile)
 * [`python3.7`, _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.7.dockerfile)
 * [`python3.7-alpine3.8` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.7-alpine3.8.dockerfile)
@@ -61,7 +63,7 @@ It is based on the more generic image [**tiangolo/meinheld-gunicorn**](https://g
 * You don't need to clone the GitHub repo. You can use this image as a base image for other images, using this in your `Dockerfile`:
 
 ```Dockerfile
-FROM tiangolo/meinheld-gunicorn-flask:python3.7
+FROM tiangolo/meinheld-gunicorn-flask:python3.9
 
 COPY ./app /app
 ```
