@@ -317,6 +317,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* ♻ Refactor dependencies to improve Dependabot updates and reduce disk size used. PR [#60](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/60) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update Latest Changes GitHub Action. PR [#59](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/59) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add Dependabot and external dependencies to get automated upgrade PRs. PR [#51](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/51) by [@tiangolo](https://github.com/tiangolo).
 * ✨ Add support for Python 3.9 and Python 3.9 Alpine. PR [#50](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/50) by [@tiangolo](https://github.com/tiangolo).
