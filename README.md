@@ -393,6 +393,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 📝 Add Kubernetes warning, when to use this image. PR [#62](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/62) by [@tiangolo](https://github.com/tiangolo).
 * ✏️ Fix typo duplicate "Note" in Readme. PR [#61](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/61) by [@tiangolo](https://github.com/tiangolo).
 * ♻ Refactor dependencies to improve Dependabot updates and reduce disk size used. PR [#60](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/60) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update Latest Changes GitHub Action. PR [#59](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/59) by [@tiangolo](https://github.com/tiangolo).
