@@ -423,6 +423,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 📝 Add note to discourage Alpine with Python. PR [#64](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/64) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Remove support for Python 2.7. PR [#63](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/63) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add Kubernetes warning, when to use this image. PR [#62](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/62) by [@tiangolo](https://github.com/tiangolo).
 * ✏️ Fix typo duplicate "Note" in Readme. PR [#61](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/61) by [@tiangolo](https://github.com/tiangolo).
