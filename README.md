@@ -423,6 +423,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* ⬆️ Bump actions/checkout from 2 to 3.1.0. PR [#99](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/99) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update isort requirement from ^4.3.21 to ^5.8.0. PR [#55](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/55) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Bump tiangolo/issue-manager from 0.2.0 to 0.4.0. PR [#52](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/52) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update docker requirement from ^4.2.0 to ^5.0.3. PR [#66](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/66) by [@dependabot[bot]](https://github.com/apps/dependabot).
