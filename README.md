@@ -423,6 +423,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* ⬆️ Update mypy requirement from ^0.770 to ^0.971. PR [#95](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/95) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔥 Remove Travis backup file. PR [#67](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/67) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add note to discourage Alpine with Python. PR [#64](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/64) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Remove support for Python 2.7. PR [#63](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/63) by [@tiangolo](https://github.com/tiangolo).
