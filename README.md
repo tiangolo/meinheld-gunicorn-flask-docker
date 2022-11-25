@@ -423,6 +423,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 👷 Add scheduled CI. PR [#104](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/104) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add alls-green GitHub Action. PR [#103](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/103) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Do not run double CI for PRs, run on push only on master. PR [#102](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/102) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Flask to the latest version supporting Python 3.6. PR [#101](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/101) by [@tiangolo](https://github.com/tiangolo).
