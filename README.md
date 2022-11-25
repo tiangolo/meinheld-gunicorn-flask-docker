@@ -429,6 +429,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 🔥 Deprecate and remove Python 3.6 and 2.7. PR [#105](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/105) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add scheduled CI. PR [#104](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/104) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add alls-green GitHub Action. PR [#103](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/103) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Do not run double CI for PRs, run on push only on master. PR [#102](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/102) by [@tiangolo](https://github.com/tiangolo).
