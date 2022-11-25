@@ -433,6 +433,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 📝 Add note about Python 3.10 and 3.11. PR [#112](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/112) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade CI OS. PR [#111](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/111) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update Dependabot config. PR [#106](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/106) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Deprecate and remove Python 3.6 and 2.7. PR [#105](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/105) by [@tiangolo](https://github.com/tiangolo).
