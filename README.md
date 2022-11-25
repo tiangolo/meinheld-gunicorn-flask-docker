@@ -433,6 +433,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 👷 Add GitHub Action for Docker Hub description. PR [#113](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/113) by [@tiangolo](https://github.com/tiangolo).
 
 ### 0.4.0
 
