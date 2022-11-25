@@ -423,6 +423,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* 👷 Do not run double CI for PRs, run on push only on master. PR [#102](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/102) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Flask to the latest version supporting Python 3.6. PR [#101](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/101) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update black requirement from ^19.10b0 to ^20.8b1. PR [#57](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/57) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update pytest requirement from ^5.4.1 to ^7.0.1. PR [#76](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/76) by [@dependabot[bot]](https://github.com/apps/dependabot).
