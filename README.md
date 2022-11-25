@@ -429,6 +429,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* ⬆️ Upgrade CI OS. PR [#111](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/111) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update Dependabot config. PR [#106](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/106) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Deprecate and remove Python 3.6 and 2.7. PR [#105](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/105) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add scheduled CI. PR [#104](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/104) by [@tiangolo](https://github.com/tiangolo).
