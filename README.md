@@ -433,6 +433,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* ⬆️ Update black requirement from ^20.8b1 to ^22.10. PR [#109](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/109) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update mypy requirement from ^0.971 to ^0.991. PR [#108](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/108) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update docker requirement from ^5.0.3 to ^6.0.1. PR [#107](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/107) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Bump flask from 2.0.1 to 2.2.2 in /docker-images. PR [#98](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/98) by [@dependabot[bot]](https://github.com/apps/dependabot).
