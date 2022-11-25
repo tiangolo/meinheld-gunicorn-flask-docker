@@ -433,19 +433,53 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+
+### 0.4.0
+
+#### Features
+
+Highlights of this release:
+
+* Support for Python 3.9 and 3.8.
+* Deprecation of Python 3.6 and 2.7.
+    * The last Python 3.6 and 2.7 images are available in Docker Hub, but they won't be updated or maintained anymore.
+    * The last images with a date tag are `python3.6-2022-11-25` and `python2.7-2022-11-25`.
+* Upgraded versions of all the dependencies.
+* Small improvements and fixes.
+
+* ✨ Add support for Python 3.9 and Python 3.9 Alpine. PR [#50](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/50) by [@tiangolo](https://github.com/tiangolo).
+* Add Python 3.8 with Alpine 3.11. PR [#28](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/28).
+* Add support for Python 3.8. PR [#27](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/27).
+
+#### Breaking Changes
+
+* 🔥 Deprecate and remove Python 3.6 and 2.7. PR [#105](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/105) by [@tiangolo](https://github.com/tiangolo).
+* 🔥 Remove support for Python 2.7. PR [#63](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/63) by [@tiangolo](https://github.com/tiangolo).
+
+#### Upgrades
+
+* ⬆️ Bump flask from 2.0.1 to 2.2.2 in /docker-images. PR [#98](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/98) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆️ Upgrade Flask to the latest version supporting Python 3.6. PR [#101](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/101) by [@tiangolo](https://github.com/tiangolo).
+
+#### Docs
+
+* 📝 Add note about Python 3.10 and 3.11. PR [#112](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/112) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Add note to discourage Alpine with Python. PR [#64](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/64) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Add Kubernetes warning, when to use this image. PR [#62](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/62) by [@tiangolo](https://github.com/tiangolo).
+* ✏️ Fix typo duplicate "Note" in Readme. PR [#61](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/61) by [@tiangolo](https://github.com/tiangolo).
+* Fix typo in README. PR [#18](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/18) by [@tahmid-choyon](https://github.com/tahmid-choyon).
+
+#### Internal
+
 * ⬆️ Update autoflake requirement from ^1.3.1 to ^2.0.0. PR [#110](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/110) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update black requirement from ^20.8b1 to ^22.10. PR [#109](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/109) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update mypy requirement from ^0.971 to ^0.991. PR [#108](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/108) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update docker requirement from ^5.0.3 to ^6.0.1. PR [#107](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/107) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆️ Bump flask from 2.0.1 to 2.2.2 in /docker-images. PR [#98](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/98) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 📝 Add note about Python 3.10 and 3.11. PR [#112](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/112) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade CI OS. PR [#111](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/111) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update Dependabot config. PR [#106](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/106) by [@tiangolo](https://github.com/tiangolo).
-* 🔥 Deprecate and remove Python 3.6 and 2.7. PR [#105](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/105) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add scheduled CI. PR [#104](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/104) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add alls-green GitHub Action. PR [#103](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/103) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Do not run double CI for PRs, run on push only on master. PR [#102](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/102) by [@tiangolo](https://github.com/tiangolo).
-* ⬆️ Upgrade Flask to the latest version supporting Python 3.6. PR [#101](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/101) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update black requirement from ^19.10b0 to ^20.8b1. PR [#57](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/57) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update pytest requirement from ^5.4.1 to ^7.0.1. PR [#76](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/76) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Bump actions/checkout from 2 to 3.1.0. PR [#99](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/99) by [@dependabot[bot]](https://github.com/apps/dependabot).
@@ -455,19 +489,11 @@ All the image tags, configurations, environment variables and application option
 * ⬆️ Bump actions/setup-python from 1 to 4. PR [#93](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/93) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update mypy requirement from ^0.770 to ^0.971. PR [#95](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/95) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔥 Remove Travis backup file. PR [#67](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/67) by [@tiangolo](https://github.com/tiangolo).
-* 📝 Add note to discourage Alpine with Python. PR [#64](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/64) by [@tiangolo](https://github.com/tiangolo).
-* 🔥 Remove support for Python 2.7. PR [#63](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/63) by [@tiangolo](https://github.com/tiangolo).
-* 📝 Add Kubernetes warning, when to use this image. PR [#62](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/62) by [@tiangolo](https://github.com/tiangolo).
-* ✏️ Fix typo duplicate "Note" in Readme. PR [#61](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/61) by [@tiangolo](https://github.com/tiangolo).
 * ♻ Refactor dependencies to improve Dependabot updates and reduce disk size used. PR [#60](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/60) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update Latest Changes GitHub Action. PR [#59](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/59) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add Dependabot and external dependencies to get automated upgrade PRs. PR [#51](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/51) by [@tiangolo](https://github.com/tiangolo).
-* ✨ Add support for Python 3.9 and Python 3.9 Alpine. PR [#50](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/50) by [@tiangolo](https://github.com/tiangolo).
 * 🎨 Format GitHub Action latest-changes. PR [#42](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/42) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add GitHub Action latest-changes, update issue-manager, add funding. PR [#41](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/41) by [@tiangolo](https://github.com/tiangolo).
-* Add Python 3.8 with Alpine 3.11. PR [#28](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/28).
-* Fix typo in README. PR [#18](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/18) by [@tahmid-choyon](https://github.com/tahmid-choyon).
-* Add support for Python 3.8. PR [#27](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/27).
 * Refactor build setup:
     * Use GitHub actions for CI.
     * Simplify, centralize, and deduplicate code and configs.
