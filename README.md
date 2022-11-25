@@ -48,6 +48,10 @@ If you have an already existing application in Flask or are building a new one, 
 
 This image has an "auto-tuning" mechanism included, so that you can just add your code and get **good performance** automatically. And without making sacrifices (like logging).
 
+## Note Python 3.10 and 3.11
+
+The current latest version of Meinheld released is 1.0.2, from May 17, 2020. This version of Meinheld requires an old version of Greenlet (`>=0.4.5,<0.5`) that is not compatible with Python 3.10 and 3.11. That's why the latest version of Python supported in this image is Python 3.9.
+
 ### * Note on performance and features
 
 If you are starting a new project, you might benefit from a newer and faster framework like [**FastAPI**](https://github.com/tiangolo/fastapi) (based on ASGI instead of WSGI like Flask and Django), and a Docker image like [**tiangolo/uvicorn-gunicorn-fastapi**](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker).
