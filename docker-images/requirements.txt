@@ -1,4 +1,4 @@
 meinheld==1.0.2
 gunicorn==20.1.0
 flask==2.2.2
-werkzeug==2.3.8
+werkzeug==2.2.3
