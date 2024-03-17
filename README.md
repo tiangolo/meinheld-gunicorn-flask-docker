@@ -431,6 +431,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* ⬆️ Bump flask from 2.2.2 to 2.2.5 in /docker-images. PR [#129](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/129) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔥 Remove Alpine support. PR [#128](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/128) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update token for latest changes. PR [#124](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/124) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add GitHub Action for Docker Hub description. PR [#113](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/113) by [@tiangolo](https://github.com/tiangolo).
