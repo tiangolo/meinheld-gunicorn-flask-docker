@@ -431,6 +431,10 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+#### Internal
+
+* 🔧 Update `latest-changes.yml`. PR [#141](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/141) by [@alejsdev](https://github.com/alejsdev).
+
 ### 0.5.0
 
 #### Features
