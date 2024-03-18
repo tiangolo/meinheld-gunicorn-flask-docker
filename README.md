@@ -445,6 +445,7 @@ All the image tags, configurations, environment variables and application option
 
 #### Internal
 
+* ⬆ Bump tiangolo/issue-manager from 0.4.0 to 0.5.0. PR [#131](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/131) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update dependabot. PR [#126](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/126) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update latest-changes GitHub Action. PR [#125](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/125) by [@tiangolo](https://github.com/tiangolo).
 * 🐛 Fix latest-changes GitHub Action. PR [#139](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/139) by [@tiangolo](https://github.com/tiangolo).
