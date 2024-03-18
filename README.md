@@ -431,13 +431,15 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
-#### Refactor
-
-* 🔥 Remove Alpine support. PR [#128](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/128) by [@tiangolo](https://github.com/tiangolo).
+### 0.5.0
 
 #### Features
 
 * ✨ Add support for multiarch builds, including ARM (e.g. Mac M1). PR [#138](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/138) by [@tiangolo](https://github.com/tiangolo).
+
+#### Refactor
+
+* 🔥 Remove Alpine support. PR [#128](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/128) by [@tiangolo](https://github.com/tiangolo).
 
 #### Upgrades
 
