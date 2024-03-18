@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.FULL_STACK_FASTAPI_POSTGRESQL_LATEST_CHANGES }}
+          token: ${{ secrets.MEINHELD_GUNICORN_FLASK_DOCKER_LATEST_CHANGES }}
       - uses: docker://tiangolo/latest-changes:0.3.0
       # - uses: tiangolo/latest-changes@main
         with:

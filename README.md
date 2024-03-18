@@ -1,4 +1,4 @@
-[![Test](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions?query=workflow%3ADeploy)
+[![Test](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions/workflows/test.yml/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions/workflows/test.yml) [![Deploy](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions?query=workflow%3ADeploy)
 
 ## Supported tags and respective `Dockerfile` links
 
@@ -431,8 +431,31 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
-* ⬆️ Bump flask from 2.2.2 to 2.2.5 in /docker-images. PR [#129](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/129) by [@dependabot[bot]](https://github.com/apps/dependabot).
+### 0.5.0
+
+#### Features
+
+* ✨ Add support for multiarch builds, including ARM (e.g. Mac M1). PR [#138](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/138) by [@tiangolo](https://github.com/tiangolo).
+
+#### Refactor
+
 * 🔥 Remove Alpine support. PR [#128](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/128) by [@tiangolo](https://github.com/tiangolo).
+
+#### Upgrades
+
+* ⬆️ Bump flask from 2.2.2 to 2.2.5 in /docker-images. PR [#129](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/129) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
+#### Docs
+
+* 📝 Update test badge in `README.md`. PR [#137](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/137) by [@alejsdev](https://github.com/alejsdev).
+
+#### Internal
+
+* 🐛 Fix latest-changes GitHub Action, take 2. PR [#140](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/140) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Bump tiangolo/issue-manager from 0.4.0 to 0.5.0. PR [#131](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/131) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update dependabot. PR [#126](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/126) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Update latest-changes GitHub Action. PR [#125](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/125) by [@tiangolo](https://github.com/tiangolo).
+* 🐛 Fix latest-changes GitHub Action. PR [#139](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/139) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update token for latest changes. PR [#124](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/124) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add GitHub Action for Docker Hub description. PR [#113](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/113) by [@tiangolo](https://github.com/tiangolo).
 
