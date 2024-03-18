@@ -445,6 +445,7 @@ All the image tags, configurations, environment variables and application option
 
 #### Internal
 
+* 👷 Update dependabot. PR [#126](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/126) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update latest-changes GitHub Action. PR [#125](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/125) by [@tiangolo](https://github.com/tiangolo).
 * 🐛 Fix latest-changes GitHub Action. PR [#139](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/139) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update token for latest changes. PR [#124](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/124) by [@tiangolo](https://github.com/tiangolo).
