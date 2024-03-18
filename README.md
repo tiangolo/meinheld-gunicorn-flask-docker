@@ -443,6 +443,10 @@ All the image tags, configurations, environment variables and application option
 
 * ⬆️ Bump flask from 2.2.2 to 2.2.5 in /docker-images. PR [#129](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/129) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
+#### Docs
+
+* 📝 Update test badge in `README.md`. PR [#137](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/137) by [@alejsdev](https://github.com/alejsdev).
+
 #### Internal
 
 * ⬆ Bump tiangolo/issue-manager from 0.4.0 to 0.5.0. PR [#131](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/131) by [@dependabot[bot]](https://github.com/apps/dependabot).
