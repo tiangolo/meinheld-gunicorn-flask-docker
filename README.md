@@ -433,6 +433,7 @@ All the image tags, configurations, environment variables and application option
 
 #### Internal
 
+* ⬆ Bump actions/setup-python from 4 to 5. PR [#132](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/132) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump peter-evans/dockerhub-description from 3 to 4. PR [#130](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/130) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆️ Update black requirement from ^22.10 to ^23.3. PR [#120](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/120) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Add GitHub templates for discussions and issues, and security policy. PR [#146](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/146) by [@alejsdev](https://github.com/alejsdev).
