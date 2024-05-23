@@ -431,6 +431,10 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+#### Upgrades
+
+* ⬆ Bump gunicorn from 20.1.0 to 22.0.0. PR [#149](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/149) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
 #### Internal
 
 * Bump gunicorn from 20.1.0 to 22.0.0 in /docker-images. PR [#148](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/148) by [@dependabot[bot]](https://github.com/apps/dependabot).
