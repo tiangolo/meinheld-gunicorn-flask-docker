@@ -437,6 +437,7 @@ All the image tags, configurations, environment variables and application option
 
 #### Internal
 
+* 👷 Update `issue-manager.yml`. PR [#154](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/154) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update `latest-changes` GitHub Action. PR [#153](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/153) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager.yml GitHub Action permissions. PR [#151](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/151) by [@tiangolo](https://github.com/tiangolo).
 * Bump gunicorn from 20.1.0 to 22.0.0 in /docker-images. PR [#148](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/148) by [@dependabot[bot]](https://github.com/apps/dependabot).
