@@ -3,15 +3,15 @@
 ## Supported tags and respective `Dockerfile` links
 
 * [`python3.9`, `latest` _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.9.dockerfile)
-* [`python3.8`, _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.8.dockerfile)
-* [`python3.7`, _(Dockerfile)_](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/blob/master/docker-images/python3.7.dockerfile)
 
 ## Deprecated tags
 
 🚨 These tags are no longer supported or maintained, they are removed from the GitHub repository, but the last versions pushed might still be available in Docker Hub if anyone has been pulling them:
 
 * `python3.9-alpine3.13`
+* `python3.8`
 * `python3.8-alpine3.11`
+* `python3.7`
 * `python3.7-alpine3.8`
 * `python3.6`
 * `python3.6-alpine3.8`
@@ -20,7 +20,9 @@
 The last date tags for these versions are:
 
 * `python3.9-alpine3.13-2024-03-11`
+* `python3.8-2024-10-28`
 * `python3.8-alpine3.11-2024-03-11`
+* `python3.7-2024-10-28`
 * `python3.7-alpine3.8-2024-03-11`
 * `python3.6-2022-11-25`
 * `python3.6-alpine3.8-2022-11-25`
@@ -28,7 +30,7 @@ The last date tags for these versions are:
 
 ---
 
-**Note**: There are [tags for each build date](https://hub.docker.com/r/tiangolo/meinheld-gunicorn-flask/tags). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/meinheld-gunicorn-flask:python3.7-2019-10-15`.
+**Note**: There are [tags for each build date](https://hub.docker.com/r/tiangolo/meinheld-gunicorn-flask/tags). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/meinheld-gunicorn-flask:python3.9-2024-11-02`.
 
 # meinheld-gunicorn-flask
 
