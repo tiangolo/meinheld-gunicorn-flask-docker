@@ -449,6 +449,7 @@ All the image tags, configurations, environment variables and application option
 
 #### Docs
 
+* 📝 Update docs with deprecations. PR [#177](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/177) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add deprecation notice. PR [#176](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/176) by [@tiangolo](https://github.com/tiangolo).
 
 #### Internal
