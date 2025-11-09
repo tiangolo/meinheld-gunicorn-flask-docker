@@ -1,3 +1,9 @@
+## DEPRECATED 🚨
+
+This Docker image is now deprecated. Read about it below.
+
+---
+
 [![Test](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions/workflows/test.yml/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions/workflows/test.yml) [![Deploy](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/actions?query=workflow%3ADeploy)
 
 ## Supported tags and respective `Dockerfile` links
@@ -48,18 +54,6 @@ If you have an already existing application in Flask or are building a new one, 
 
 This image has an "auto-tuning" mechanism included, so that you can just add your code and get **good performance** automatically. And without making sacrifices (like logging).
 
-## Note Python 3.10 and 3.11
-
-The current latest version of Meinheld released is 1.0.2, from May 17, 2020. This version of Meinheld requires an old version of Greenlet (`>=0.4.5,<0.5`) that is not compatible with Python 3.10 and 3.11. That's why the latest version of Python supported in this image is Python 3.9.
-
-### * Note on performance and features
-
-If you are starting a new project, you might benefit from a newer and faster framework like [**FastAPI**](https://github.com/tiangolo/fastapi) (based on ASGI instead of WSGI like Flask and Django), and a Docker image like [**tiangolo/uvicorn-gunicorn-fastapi**](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker).
-
-It would give you about 200% the performance achievable with Flask, even when using this image.
-
-Also, if you want to use new technologies like WebSockets it would be easier with a newer framework based on ASGI, like **FastAPI**. As the standard ASGI was designed to be able to handle asynchronous code like the one needed for WebSockets.
-
 ## Technical Details
 
 ### Meinheld
@@ -80,7 +74,7 @@ This image was created to be an alternative to [**tiangolo/uwsgi-nginx-flask**](
 
 It is based on the more generic image [**tiangolo/meinheld-gunicorn**](https://github.com/tiangolo/meinheld-gunicorn-docker). That's the one you would use for other WSGI frameworks, like Django.
 
-## 🚨 WARNING: You Probably Don't Need this Docker Image
+## 🚨 DEPRECATION WARNING
 
 You are probably using **Kubernetes** or similar tools. In that case, you probably **don't need this image** (or any other **similar base image**). You are probably better off **building a Docker image from scratch**.
 
@@ -121,6 +115,22 @@ CMD ["gunicorn", "--conf", "app/gunicorn_conf.py", "--bind", "0.0.0.0:80", "app.
 ```
 
 You can read more about these ideas in the [FastAPI documentation about: FastAPI in Containers - Docker](https://fastapi.tiangolo.com/deployment/docker/#replication-number-of-processes) as the same ideas would apply to other web applications in containers.
+
+[Meinheld](https://github.com/mopemope/meinheld) has not being actively maintained in the past years.
+
+The current latest version of Meinheld released is 1.0.2, from May 17, 2020. This version of Meinheld requires an old version of Greenlet (`>=0.4.5,<0.5`) that is not compatible with Python 3.10 and 3.11, the last version compatible was Python 3.9.
+
+[Python 3.9 now reached its End Of Life](https://devguide.python.org/versions/). So, there is currently no feasible way to use this Docker image.
+
+Additionally, most of my time is now dedicated to [FastAPI](https://fastapi.tiangolo.com/) and friends.
+
+Because of all that, this Docker image is no longer supported. ☕
+
+---
+
+## Historical Docs
+
+The rest of the README is preserved mainly for historical reasons.
 
 ## When to Use this Docker Image
 
