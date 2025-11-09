@@ -445,6 +445,7 @@ All the image tags, configurations, environment variables and application option
 
 #### Upgrades
 
+* ⬆ Bump flask from 3.1.1 to 3.1.2. PR [#172](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/172) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump flask from 3.1.0 to 3.1.1. PR [#169](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/169) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump flask from 3.0.3 to 3.1.0. PR [#167](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/167) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump flask from 2.2.5 to 3.0.3. PR [#147](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/147) by [@dependabot[bot]](https://github.com/apps/dependabot).
