@@ -458,6 +458,7 @@ All the image tags, configurations, environment variables and application option
 
 #### Internal
 
+* ⬆ Bump actions/setup-python from 5 to 6. PR [#173](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/173) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/checkout from 4 to 5. PR [#171](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/171) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/latest-changes from 0.3.2 to 0.4.0. PR [#170](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/170) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/latest-changes from 0.3.1 to 0.3.2. PR [#166](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/166) by [@dependabot[bot]](https://github.com/apps/dependabot).
