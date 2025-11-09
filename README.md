@@ -452,6 +452,10 @@ All the image tags, configurations, environment variables and application option
 * ⬆ Bump gunicorn from 22.0.0 to 23.0.0. PR [#152](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/152) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump gunicorn from 20.1.0 to 22.0.0. PR [#149](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/149) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
+#### Docs
+
+* 📝 Add deprecation notice. PR [#176](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/176) by [@tiangolo](https://github.com/tiangolo).
+
 #### Internal
 
 * ⬆ Bump tiangolo/latest-changes from 0.3.1 to 0.3.2. PR [#166](https://github.com/tiangolo/meinheld-gunicorn-flask-docker/pull/166) by [@dependabot[bot]](https://github.com/apps/dependabot).
